@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InovationStore.Domain\InovationStore.Domain.csproj" />
+    <ProjectReference Include="..\InovationStore.Persistence\InovationStore.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
